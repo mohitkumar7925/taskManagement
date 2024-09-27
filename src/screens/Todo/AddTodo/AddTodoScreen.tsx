@@ -46,7 +46,7 @@ const AddTodoScreen = () => {
                 style={styles.input}
                 onSubmitEditing={() => submitForm}
               />
-              <DatePicker name="dealline" minimumDate={new Date()} />
+              <DatePicker name="deadline" minimumDate={new Date()} />
               <PrioritySelector name="priority" />
               <Button
                 title={contents('common.add')}
